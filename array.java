@@ -84,7 +84,7 @@
 
 // import java.util.Scanner;
 
-//  public class ArrayExample {
+//  public class array {
 //     public static void main(String[] args) {
 
 //         Scanner sc = new Scanner(System.in);
@@ -104,7 +104,7 @@
 
 //         // Print the array elements
 //         System.out.println("The elements in the array are: ");
-//         for (int i = 0; i < a.length; i++) {
+//         for (int i = 0; i < a.length; ++i) {
 //             System.out.println(a[i]); // Output each element
 //         }
 
