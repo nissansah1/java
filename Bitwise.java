@@ -87,24 +87,45 @@ public class Bitwise {
             /*input the Next value*/
             System.out.print("Please enter Next operand number: ");
             int Next = sc.nextInt(); 
+            sc.nextLine(); 
 
-            String Select_operand = sc.nextLine();
-            
-            switch (Select_operand) {  //select which shift you want to use 
-            case ">>":
-                System.out.print("right shift selector:" + (N >> I) );
-                Right = N >> I;
-                break;  
-            case "<<":
-                System.out.print("left shift selector: " + (N << I) );
-                Left = N << I;
+
+                /*select bitwise_operation*/
+            System.out.print("Please enter bitwise_operation : ");
+            String bitwise_operation = sc.nextLine(); 
+
+            switch (bitwise_operation) {  //select which shift you want to use 
+              case "&":       /*nested loop*/
+                                System.out.print("Please enter Select_operend : ");
+                                String Select_operand = sc.nextLine();
+
+                                switch (Select_operand) {  //select which shift you want to use 
+                                     case "r":
+                                             System.out.println("get bit (&) value is : "+ (Next & Right ));
+                                                          break;
+
+                                     case "l":
+                                            System.out.println("get bit (&) value is : "+ (Next & Left ));
+                                                          break;
+                                  }
                 break;
-               }
 
-            System.out.println("get bit (&) value is : "+ (Next & operand ));
-            System.out.println("Set bit (|) value is : "+ (Next | operand));
-            
-               
+              case "|":          /*nested loop*/
+                                System.out.print("Please enter Select_operend : ");
+                                String select_operand = sc.nextLine();
+
+                                switch (select_operand) {  //select which shift you want to use 
+                                     case "r":
+                                             System.out.println("set bit (|) value is : "+ (Next & Right ));
+                                                          break;
+
+                                     case "l":
+                                            System.out.println("set bit (|) value is : "+ (Next & Left ));
+                                                          break;
+                                  }
+                break;
+               }           
+    
         sc.close();
     }
 }
