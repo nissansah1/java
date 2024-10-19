@@ -1,0 +1,11 @@
+git init
+
+git add  -A
+
+git commit -m "save commit"
+
+git branch -M main
+
+git remote add origin https://github.com/nissansah1/java_-_Dsa.git
+
+git push -u origin main
