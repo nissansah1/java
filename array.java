@@ -39,25 +39,26 @@
 // }
 
 
-// import java.util.Scanner;
+import java.util.Scanner;
 
-//  public class array {
-//     public static void main(String[] args) {
+ public class array {
+    public static void main(String[] args) {
 
-//         Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
             
-             
-//             for (int i=0; i <= a.length; i++) 
-//                 System.out.print("Please enter a number: ");
-//                 int[] a = sc.nextInt();
-                
+             int a[]=new int[1];
+            for (int i=0; i < a.length; i++) {
+                System.out.print("Please enter a number: ");
+                a[i] = sc.nextInt();
+            }
             
-//             for (int i=0; i <= a.length; i++) 
-//                 System.out.println(a[i]);
-//         sc.close();
-//     }
-// }
+            for (int i=0; i <= a.length; i++){ 
+                System.out.println(a[i]);
+            }
+        sc.close();
+    }
+ }
 
 
 // import java.util.Scanner;
@@ -111,4 +112,27 @@
 //         sc.close();
 //     }
 // }
+
+
+// import java.util.Scanner;
+
+//  public class array {
+//     public static void main(String[] args) {
+
+//         Scanner sc = new Scanner(System.in);
+
+            
+//             // System.out.print("Please enter a number: ");
+//             int[] a= {1,2,3,4,5,6,7};
+            
+//             for (int i=0; i < a.length; i++) {
+//                         int sum=0;
+//                         sum =sum + a[i];
+//                         System.out.println("answer" + sum);
+//             }
+
+//         sc.close();
+//     }
+// }
+
 
