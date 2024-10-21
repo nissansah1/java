@@ -1,3 +1,4 @@
+/* just print output without loop */
 // import java.util.Scanner;
 
 //  public class array {
@@ -21,22 +22,24 @@
 // }
 
 
-import java.util.Scanner;
 
- public class array {
-    public static void main(String[] args) {
+/* just print output*/
+// import java.util.Scanner;
 
-        Scanner sc = new Scanner(System.in);
+//  public class array {
+//     public static void main(String[] args) {
+
+//         Scanner sc = new Scanner(System.in);
 
             
-            //System.out.print("Please enter a number: ");
-            int[] a= {1,2,3,4,5,6,7};
+//             //System.out.print("Please enter a number: ");
+//             int[] a= {1,2,3,4,5,6,7};
             
-            for (int i=0; i < a.length; i++) 
-                System.out.print(a[i]);
-        sc.close();
-    }
-}
+//             for (int i=0; i < a.length; i++) 
+//                 System.out.print(a[i]);
+//         sc.close();
+//     }
+// }
 
 
 
@@ -141,4 +144,36 @@ import java.util.Scanner;
 //     }
 // }
 
+
+/* declare size and simple input and  print reverse output*/
+// import java.util.Scanner;
+
+//  public class array {
+//     public static void main(String[] args) {
+
+//         Scanner sc = new Scanner(System.in);
+
+//         // Ask the user for the array size
+//         System.out.print("Enter the number of elements in the array: ");
+//         int size = sc.nextInt(); // Store array size
+
+//         // Declare and initialize the array
+//         int[] a = new int[size]; // Initialize array of given size
+
+//         // Input array elements from the user
+//         for (int i = 0; i < a.length; i++) {
+//             System.out.print("Please enter a "+i+ " number: ");
+//             a[i] = sc.nextInt(); // Store each input into the array
+//         }
+//         sc.nextLine();
+
+//         // Print the reverse array elements
+//         System.out.println("The elements in the array are: ");
+//         for (int i=a.length-1; i >= 0 ; i--) {
+//             System.out.print(a[i]); // Output each element
+//         }
+
+//         sc.close();
+//     }
+// }
 
