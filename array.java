@@ -21,24 +21,6 @@
 // }
 
 
-// import java.util.Scanner;
-
-//  public class array {
-//     public static void main(String[] args) {
-
-//         Scanner sc = new Scanner(System.in);
-
-            
-//             // System.out.print("Please enter a number: ");
-//             int[] a= {1,2,3,4,5,6,7};
-            
-//             for (int i=0; i < a.length; i++) 
-//                 System.out.println(a[i]);
-//         sc.close();
-//     }
-// }
-
-
 import java.util.Scanner;
 
  public class array {
@@ -47,20 +29,43 @@ import java.util.Scanner;
         Scanner sc = new Scanner(System.in);
 
             
-             int a[]=new int[1];
-            for (int i=0; i < a.length; i++) {
-                System.out.print("Please enter a number: ");
-                a[i] = sc.nextInt();
-            }
+            //System.out.print("Please enter a number: ");
+            int[] a= {1,2,3,4,5,6,7};
             
-            for (int i=0; i <= a.length; i++){ 
-                System.out.println(a[i]);
-            }
+            for (int i=0; i < a.length; i++) 
+                System.out.print(a[i]);
         sc.close();
     }
- }
+}
 
 
+
+/*declare size first */
+// import java.util.Scanner;
+
+//  public class array {
+//     public static void main(String[] args) {
+
+//         Scanner sc = new Scanner(System.in);
+
+            
+//              int a[]=new int[1];       
+//             for (int i=0; i < a.length; i++) {
+//                 System.out.print("Please enter a number: ");
+//                 a[i] = sc.nextInt();
+//             }
+            
+//             for (int i=0; i <= a.length; i++){ 
+//                 System.out.println(a[i]);
+//             }
+//         sc.close();
+//     }
+// }
+
+
+
+
+/*simple input and output */
 // import java.util.Scanner;
 
 //  public class array {
@@ -82,7 +87,7 @@ import java.util.Scanner;
 // }
 
 
-
+/* declare size and simple input and output*/
 // import java.util.Scanner;
 
 //  public class array {
@@ -106,7 +111,7 @@ import java.util.Scanner;
 //         // Print the array elements
 //         System.out.println("The elements in the array are: ");
 //         for (int i = 0; i < a.length; ++i) {
-//             System.out.println(a[i]); // Output each element
+//             System.out.print(a[i]); // Output each element
 //         }
 
 //         sc.close();
@@ -114,6 +119,7 @@ import java.util.Scanner;
 // }
 
 
+/*declare and initialize var in loop , cann 0nly access only in loop */
 // import java.util.Scanner;
 
 //  public class array {
@@ -127,7 +133,7 @@ import java.util.Scanner;
             
 //             for (int i=0; i < a.length; i++) {
 //                         int sum=0;
-//                         sum =sum + a[i];
+//                         sum =sum + a[i];     
 //                         System.out.println("answer" + sum);
 //             }
 
